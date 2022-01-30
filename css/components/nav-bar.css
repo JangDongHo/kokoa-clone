@@ -26,11 +26,6 @@
 }
 
 .nav__new {
-  background-color: tomato;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  display: block;
   position: absolute;
   right: -5px;
   top: -13px;

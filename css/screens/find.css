@@ -3,33 +3,9 @@
 }
 
 .cog__new {
-  background-color: tomato;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  display: block;
   position: absolute;
   left: -3px;
   top: -5px;
-}
-
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-}
-
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.find-icons__icon i {
-  font-size: 35px;
-}
-
-.find-icons__icon span {
-  margin-top: 18px;
 }
 
 .recommended-friends {

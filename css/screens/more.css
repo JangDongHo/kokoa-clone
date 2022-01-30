@@ -1,0 +1,56 @@
+.user-component__subtitle i {
+  margin-left: 3px;
+  color: red;
+}
+
+.more-screen .icon-row {
+  margin-top: 30px;
+}
+
+.more-screen .icon-row__icon {
+  width: 75px;
+  height: 75px;
+}
+
+.more-suggestions {
+  margin-top: 50px;
+  border-top: var(--main-border);
+  padding-top: 40px;
+}
+
+.more-suggestions__title {
+  margin-bottom: 30px;
+}
+
+.drive__new {
+  position: absolute;
+  right: 7px;
+  top: -20px;
+}
+
+.more-suggestions__icons {
+  display: flex;
+}
+
+.more-suggestions__icon {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-suggestions__icon-image {
+  width: 60px;
+  height: 60px;
+  background-color: var(--yellow);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.more-suggestions__icon-image i {
+  font-size: 32px;
+  color: white;
+}

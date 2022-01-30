@@ -28,25 +28,32 @@
       <span><i class="fas fa-search fa-lg"></i></span>
       <span><i class="far fa-comment-dots fa-lg"></i></span>
       <span><i class="fas fa-music fa-lg"></i></span>
-      <span><i class="fas fa-cog fa-lg"></i></span>
+      <span class="cog-btn">
+        <a href="settings.html">
+        <i class="fas fa-cog fa-lg"></i>
+        <span class="icon-new cog__new"></span>
+        </a>
+      </span>
     </div>
   </header>
 
   <main class="main-screen">
-    <div class="user-component">
-      <div class="user-component__column">
-        <img src="https://avatars.githubusercontent.com/u/29221823?v=4" 
-            class="user-component__avatar" />
-        <div class="user-component__text">
-          <h4 class="user-component__title">Nicolas</h4>
-          <h6 class="user-component__subtitle">Please check My Kakao Account Info</h6>
+    <a href="chat.html">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="https://avatars.githubusercontent.com/u/29221823?v=4" 
+              class="user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Nicolas</h4>
+            <h6 class="user-component__subtitle">Please check My Kakao Account Info</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">21:22</span>
+          <div class="badge">1</div>
         </div>
       </div>
-      <div class="user-component__column">
-        <span class="user-component__time">21:22</span>
-        <div class="badge">1</div>
-      </div>
-    </div>
+    </a>
 
     <div class="user-component">
       <div class="user-component__column">
@@ -80,7 +87,7 @@
       </li>
       <li class="nav__btn">
         <a class="nav__link" href="more.html">
-          <span class="nav__new"></span>
+          <span class="icon-new nav__new"></span>
           <i class="fas fa-ellipsis-h fa-2x"></i>
         </a>
       </li>
