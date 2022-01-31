@@ -16,6 +16,10 @@
   z-index: 2;
 }
 
+#chat-screen .alt-header {
+  z-index: 1;
+}
+
 @keyframes fadeUp {
   from {
     transform: translateY(30px);
@@ -95,7 +99,7 @@
 
 .message__info {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .message__bubble {
@@ -139,7 +143,7 @@
   padding: 5px 25px;
   box-sizing: border-box;
   align-items: center;
-  transition: transform all 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .reply .reply__column:first-child {
@@ -155,6 +159,7 @@
   width: 100%;
   border: var(--main-border);
   border-radius: 25px;
+  box-sizing: border-box;
   padding: 14px;
   transition: all 0.3s ease-in-out;
 }
@@ -162,12 +167,12 @@
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: -15px;
-  top: 8px;
+  right: 3px;
+  top: 7px;
 }
 
 .reply__column:last-child > i {
-  right: 25px;
+  right: 50px;
   top: 15px;
 }
 
